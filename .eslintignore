@@ -1,0 +1,26 @@
+# Ignore build output directories
+build/
+dist/
+
+# Ignore generated files
+*.min.js
+*.min.css
+
+# Ignore configuration files
+.eslintrc.js
+babel.*.js
+webpack.*.js
+
+# Ignore dependencies
+node_modules/
+
+# Ignore test files
+**/__tests__/*
+**/*.test.js
+**/*.spec.js
+
+# Ignore public assets
+public/*
+
+# Ignore specific files or directories
+<!-- Mention specific folder if want to exclude from linting -->
