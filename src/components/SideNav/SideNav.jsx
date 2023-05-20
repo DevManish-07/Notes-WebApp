@@ -92,7 +92,7 @@ const ItemContentContainer = styled.div`
     align-items: center;
     gap: 20px;
     border-radius: 6px; 
-    box-shadow: 0 .5px 4px 0px rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+    box-shadow: 0 .5px 1px 0px rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.01);
     cursor: pointer;
     justify-content: space-between;
 

@@ -15,7 +15,7 @@ export default function NotesCard({ title, description, date, active, tags }) {
                 <CardTitle>{title}</CardTitle>
                 <div style={{ color: "#b9b9b9" }}>{date}</div>
             </TitleContainer>
-            <CarDescription>{description.slice(0, 60)}...</CarDescription>
+            <CarDescription>{description.slice(0, 120)}...</CarDescription>
             {tagsContent}
         </CarContainer>
     )
@@ -38,14 +38,14 @@ const CarContainer = styled.div`
 `;
 
 const CarDescription = styled.p`
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     color: rgb(108 107 107);
 `;
 
 const TitleContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 `;
 
 const CardTitle = styled.h4`
@@ -66,4 +66,5 @@ const TagsContainer = styled.section`
     gap: 10px;
     color: rgb(89 89 89);
     border-radius: 10px;
+    flex-wrap: wrap;
 `;
