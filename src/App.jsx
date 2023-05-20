@@ -1,7 +1,8 @@
 import React from "react";
+import NotesPage from "./pages/Notes/Notes";
 
 const App = () => {
-  return <h1>Hello, React!</h1>;
+  return <NotesPage />;
 };
 
 export default App;
