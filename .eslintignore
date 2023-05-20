@@ -22,5 +22,3 @@ node_modules/
 # Ignore public assets
 public/*
 
-# Ignore specific files or directories
-<!-- Mention specific folder if want to exclude from linting -->
